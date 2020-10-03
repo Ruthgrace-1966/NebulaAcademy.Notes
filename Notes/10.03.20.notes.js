@@ -1,1 +1,2 @@
-// These are my notes for today. 
+
+// This is an update after restructuring. 
