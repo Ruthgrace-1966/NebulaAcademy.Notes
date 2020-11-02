@@ -27,6 +27,3 @@ console.log(sentence.charAt[20])
 
 
 
-
-
-
