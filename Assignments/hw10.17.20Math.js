@@ -3,42 +3,49 @@
 
 
 // INSTRUCTIONS
-// Calculate the remainder of 15/2, log the string: 'the remainder of 15/2 is (remainder)'
-let calculate = 'the remaider of 15/2 is (remainder)'
-console.log()
+// 1. Calculate the remainder of 15/2, log the string: 'the remainder of 15/2 is (remainder)'
+let calculate = 'the remainder of 15/2 is (remainder)'
+console.log(15%2);
 
-// Calculate the remainder of 30/2, log the string: 'the remainder of 30/2 is (remainder)'
+  let number = 15/2
+console.log(number, 'number');
 
+let num = 15%2
+
+// 2. Calculate the remainder of 30/2, log the string: 'the remainder of 30/2 is (remainder)'
+let num2 = Math.floor(30/2)
+let remainder2 = 30%2
+console.log('30/2 is' + num2 + 'with a remainder of' + remainder2)
  
+// *Write the reasonings for each solution below
+// 3. Log the boolean of 5 == '5'
+console.log(5 == '5');
 
-// Write the reasonings for each solution below
+// 4. Log the boolean of  5 === '5'
+console.log(5 ==='5');
 
- 
+// 5. Log the boolean of 5 != '5'
+console.log(5!='5');
 
-// Log the boolean of 5 == '5'
+// 6. Log the boolean of  5 !== '5'
+console.log(5!=='5');
 
-// Log the boolean of  5 === '5'
+// 7. Log the boolean of 5 == 5 && 5 ==6
+console.log(5==5 && 5==6);
 
-// Log the boolean of 5 != '5'
+// 8. Log the boolean of 5 ==5 || 5 ==6
+console.log(5==5 || 5==6)
 
-// Log the boolean of  5 !== '5'
+// 9. Using Math.random(), console.log 3 random decimal numbers from 0 to 1000
+console.log(Math.random() * (Math.floor(1000)));
+console.log(Math.random() * (Math.floor(1000)));
+console.log(Math.random(100) * Math.random());
 
-// Log the boolean of 5 == 5 && 5 ==6
+// 10. Using Math.random(), console.log 3 random whole numbers from 0 to 1000
+console.log(Math.random());
+console.log(Math.random() * 100);
+console.log(Math.floor(Math.random() * 1000));
 
-// Log the boolean of 5 ==5 || 5 ==6
+// *Push your code up to GitHub and Submit the link!
 
- 
-
-// Using Math.random(), console.log 3 random decimal numbers from 0 to 1000
-
- 
-
-// Using Math.random(), console.log 3 random whole numbers from 0 to 1000
-
- 
-
-// Push your code up to GitHub and Submit the link!
-
- 
-
-// Please do group reflecions!
+// *Please do group reflecions!
