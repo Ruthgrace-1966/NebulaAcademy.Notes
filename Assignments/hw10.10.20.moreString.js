@@ -64,46 +64,83 @@
 //   myQ0: Declare a variable and assign it a string value equal to your name
 // let string = "Anitria";
 // console.log(string);
-let stringy = "Ruthie";
-console.log(stringy);     
- //Ruthie
+// let stringy = "Ruthie";
+// console.log(stringy);     
+//  //Ruthie
 
 
-//Q1: Given the string, 'WE ARE SHOUTING!' log 'we are shouting'
- let shout = 'WE ARE SHOUTING!';
- console.log(shout);     //WE ARE SHOUTING!
+// //Q1: Given the string, 'WE ARE SHOUTING!' log 'we are shouting'
+//  let shout = 'WE ARE SHOUTING!';
+//  console.log(shout);     //WE ARE SHOUTING!
 
+
+// // LEVEL 1
+// //     Q2: Declare a string and log its length 
+// let friend = 'girlsNightOut';
+// console.log(friend.length);     //13
+//      // The .length is a property and NOT a method.
+
+
+// // //     Q3: Given the string 'Hello World!', log the 6th character.
+// let earthling = 'Hello World!';
+// console.log(earthling[6]);      //W
+
+// // LEVEL 2
+// //     Q4: Given the string 'Welcome World?', replace the question mark with an exclamation
+// let earth = 'Welcome World?';
+// console.log(earth);     //Welcome World?
+// console.log(earth.replace("?", "!"));       //Welcome World!
+
+// // LEVEL 3
+// //     Q5: Given any string, log the first and last characters
+// let relations = 'love of my life';
+// console.log(relations);     //love of my life
+// console.log(relations.length);      //15
+// console.log(relations[0]);      //l
+// console.log(relations[14]);     //e
+// console.log(relations[relations.length -1]);        //e
+
+
+// // LEVEL 4
+// //    Q6: Given the string 'welcome to my website', what is the character at the 7th index? 
+// let javaScript = 'welcome to my website';
+// console.log(javaScript);        //welcome to my website
+// console.log(javaScript[7]);     //*This space indicated an empty space in between the 'e' in welcome and the 't' in to
+// console.log(javaScript[6]);     //e
+
+
+
+// PRACTICE NUMBER TWO
+
+// LEVEL 0
+//     Q0: Declare a string with the value equal to your name
+//   myQ0: Declare a variable and assign it a string value equal to your name
+//
+
+
+//Q1: Given the string, 'THE COUNTRY  NEEDS TO BE UNITED!' log 'the country needs to be united'
+
+ 
 
 // LEVEL 1
 //     Q2: Declare a string and log its length 
-let friend = 'girlsNightOut';
-console.log(friend.length);     //13
-     // The .length is a property and NOT a method.
 
 
-// //     Q3: Given the string 'Hello World!', log the 6th character.
-let earthling = 'Hello World!';
-console.log(earthling[6]);      //W
+
+//     Q3: Given the string 'Hello Family of Nebula Academy!', log the 7th character.
+
+
 
 // LEVEL 2
-//     Q4: Given the string 'Welcome World?', replace the question mark with an exclamation
-let earth = 'Welcome World?';
-console.log(earth);     //Welcome World?
-console.log(earth.replace("?", "!"));       //Welcome World!
+//     Q4: Given the string 'America is the United States?', replace the question mark with an exclamation
+
 
 // LEVEL 3
 //     Q5: Given any string, log the first and last characters
-let relations = 'love of my life';
-console.log(relations);     //love of my life
-console.log(relations.length);      //15
-console.log(relations[0]);      //l
-console.log(relations[14]);     //e
-console.log(relations[relations.length -1]);        //e
 
 
 // LEVEL 4
-//    Q6: Given the string 'welcome to my website', what is the character at the 7th index? 
-let javaScript = 'welcome to my website';
-console.log(javaScript);        //welcome to my website
-console.log(javaScript[7]);     //*This space indicated an empty space in between the 'e' in welcome and the 't' in to
-console.log(javaScript[6]);     //e
+//    Q6: Given the string 'the world needs to be a better place to live', what is the character at the 7th index? 
+
+
+
