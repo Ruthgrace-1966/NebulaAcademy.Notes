@@ -38,3 +38,5 @@ console.log('My faviorte day of the week is ' + favDay);
 let phone = ['iphone', 'android']
 let laptop = ['MacBook', 'HP', 'Dell']
 console.log(phone.concat(laptop));
+
+// *Push work to GitHub account!
