@@ -47,7 +47,6 @@ console.log(classMates(false));                     //Boolean
 
 // PROBLEM 4
 var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
- 
 // a.) Using the array above, create a function that returns the 4th element in the array.
 function goodFruit(oneFruit){
     return `The fourth element is ${oneFruit}`
@@ -63,7 +62,7 @@ console.log(healthyFruit(fruits[4]));
 console.log(healthyFruit(fruits[3]));
 
 // // b.) Create a function that returns only the last element in the fruits array. 
-var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
+//var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
 function fruityFruit(lastFruit){
     console.log(lastFruit);                 // ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon']
     return lastFruit[lastFruit.length -1]
@@ -72,7 +71,7 @@ console.log(fruityFruit(fruits));           //watermelon
 
 
 // c.) Create a function that returns ['peach', 'lemon', 'plum', 'grape'] 
-var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
+//var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
 function fruitsFour(lightDark){
     return lightDark.splice(2, 4)
 }
@@ -80,7 +79,7 @@ console.log(fruitsFour(fruits));            //['peach', 'lemon', 'plum', 'grape'
 
 
 // d.) Create a function that adds another fruit to the end of the array and returns the new array. 
-var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
+//var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
 function addingFruit(fruits){
     fruits.push('pomegranite')
     return fruits
@@ -94,7 +93,7 @@ function string (fruits){
 }
 console.log(string(fruits));
 
-var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
+//var fruits = ['apple', 'orange', 'peach', 'lemon', 'plum', 'grape', 'watermelon'];
 function fruitString(fruits){
     return fruits.join(' and ')
 }
@@ -104,7 +103,7 @@ console.log(fruitString(fruits));     //apple and orange and peach and lemon and
 // PROBLEM 5
 var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
 
-a.) Using the array above, create a function that returns the string, 'Hello Maurice and Chelsea!' 
+//a.) Using the array above, create a function that returns the string, 'Hello Maurice and Chelsea!' 
 // // Declaring/creating a function called hiMaurice
 function hiMaurice(studentNames){
     console.log(studentNames) // ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy'] 
@@ -115,7 +114,7 @@ function hiMaurice(studentNames){
 // Invoking the function
 console.log(hiMaurice(names))
 
-var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
+//var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
 function greetingsStudents(peerNames){
     console.log(peerNames)              //['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
     console.log(peerNames[1])           //Maurice
@@ -133,7 +132,7 @@ function welcome(names){
 }
 console.log(welcome(names))
 
-var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
+//var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
 function helloThere(names){
     console.log(names[0])                       //Jasmine      
     console.log(names[5])                       //Daja
@@ -149,7 +148,7 @@ function howdyEd (name){
 }
 console.log(howdyEd(names)) //howdy Eddy!
 
-var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
+//var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
 function bigEddy(name){
     console.log(name[6])
     return `Howdy ${name[6]}!`
@@ -162,7 +161,7 @@ function name (girlsBoys){
 }
 console.log(name(names[3])) // Happy Monday, Anitria!
 
-var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
+//var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
 function myName(weekday){
     return `Happy Monday, ${weekday}!`
 }
@@ -174,7 +173,7 @@ console.log(myName(names[3]));      //Happy Monday, Anitria!
 // }
 // console.log(wednesday(names[4])); //Hey Tauseef!
 
-var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
+//var names = ['Jasmine', 'Maurice', 'Chelsea', 'Anitria', 'Tauseef', 'Daja', 'Eddy']
 function interestingName(Tauseef){
     return `Hey, ${Tauseef}!`
 }
