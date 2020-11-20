@@ -3,13 +3,13 @@
 // PROBLEM 1
 // Create a function called initials that has two parameters: firstName and lastName.
 // This function will return the initials of the first and last names passed into the function.
-function initials (firstName, lastName){
-    return  firstName + lastName 
-}
+// function initials (firstName, lastName){
+//     return  firstName + lastName 
+// }
  
-// PROBLEM 2
-// Create a function called bool that has returns the Boolean of any argument passed into it
-function bool 
+// // PROBLEM 2
+// // Create a function called bool that has returns the Boolean of any argument passed into it
+// function bool 
 
 
 
