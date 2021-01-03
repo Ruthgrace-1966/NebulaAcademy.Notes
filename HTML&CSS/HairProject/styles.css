@@ -1,0 +1,32 @@
+h1{
+    color: red;
+    font-size: 36px;
+}
+h2{
+    color: yellowgreen;
+    font-size: 25px;
+}
+h3{
+    color: blue;
+    font-size: 25px;
+}
+h4{
+    color: purple;
+    font-size: 25px;
+}
+h5{
+    color: #900070;
+    font-size: 25px;
+}
+h6{
+    color: #900050;
+    font-size: 15px;
+}
+h7{
+    color: yellow;
+    font-size: 20px;
+}
+h8{
+    color: green;
+    font-size: 30px;
+}
