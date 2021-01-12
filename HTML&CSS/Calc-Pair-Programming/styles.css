@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+    background-image: ;
+    background-size: cover;
+}
+
+#calculator{
+    display: flex;
+    color: blue;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border: 5px solid; 
+    border-radius: 10px; 
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+#screen{
+    border: 3px solid ; 
+    width: 200px;
+    height: 40px;
+    
+}
+
